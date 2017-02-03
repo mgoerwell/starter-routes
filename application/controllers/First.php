@@ -32,4 +32,14 @@ class First extends Application {
 
 		$this->render();
 	}
+    
+    public function gimme($number) {
+        $this->data['pagebody'] = 'justone';
+
+		$record = $this->quotes->get($number);
+
+		$this->data = array_merge($this->data,$record);
+
+		$this->render();
+    }
 }

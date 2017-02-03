@@ -40,4 +40,17 @@ class Welcome extends Application
         $this->data = array_merge($this->data, $record);
 		$this->render();
 	}
+
+	public function random(){
+		// this is the view we want shown
+		$this->data['pagebody'] = 'justone';
+
+		// build the list of authors, to pass on to our view
+		$source = $this->quotes->all();
+		$rand = rand (1, 5);
+
+        $record = $source[$rand];
+        $this->data = array_merge($this->data, $record);
+		$this->render();
+	}
 }

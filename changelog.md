@@ -10,7 +10,5 @@ Date | Description | Name (email)
 2017/02/02 | Routed "/sleep" to First:zzz() inside the "First" Controller | Michael Goll (mike_g97@hotmail.com)
 2017/02/02 | Fixed a "file structure" issue for Job 2 | Matt Goerwell (superninja246@hotmail.com)
 2017/02/02 | Added lock/em/up routing | John Agapeyev (jagapeyev@gmail.com)  
-<<<<<<< bingo
 2017/02/02 | Added wise bingo routing | John Agapeyev (jagapeyev@gmail.com)  
-=======
->>>>>>> develop
+2017/02/02 | Added random quote for 404 override | John Agapeyev (jagapeyev@gmail.com)

@@ -54,6 +54,7 @@ $route['404_override'] = 'hogwarts/random';
 $route['translate_uri_dashes'] = FALSE;
 $route['lock/:any/:any'] = 'hogwarts/shucks';
 $route['sleep'] = 'first/zzz';
+$route['comp(\d{4})/(:any)'] = 'wise/bingo';
 $route['\w{4}/bingo'] = 'bingo';
 
 $route['dunno'] = function() {

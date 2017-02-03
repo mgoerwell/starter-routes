@@ -49,9 +49,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
-$route['404_override'] = 'welcome/random';
+$route['default_controller'] = 'hogwarts';
+$route['404_override'] = 'hogwarts/random';
 $route['translate_uri_dashes'] = FALSE;
-$route['lock/:any/:any'] = 'welcome/shucks';
+$route['lock/:any/:any'] = 'hogwarts/shucks';
 $route['sleep'] = 'first/zzz';
 $route['\w{4}/bingo'] = 'bingo';
